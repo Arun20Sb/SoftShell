@@ -9,7 +9,7 @@ import Navbar from './components/Navbar';
 import ChatWidget from './components/ChatWidget';
 
 function App() {
-  const [darkMode, setDarkMode] = useState(false);
+  const [darkMode, setDarkMode] = useState(true);
 
   const toggleDarkMode = () => {
     setDarkMode(!darkMode);
