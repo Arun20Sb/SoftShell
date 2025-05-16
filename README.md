@@ -1,12 +1,15 @@
-# SoftShell - AI Chat Widget
+# SoftShell - Responsive Web Assignment
 
-SoftShell is a simple, customizable AI chat widget that leverages hardcoded responses and the OpenAI API to provide interactive, conversational assistance to users.
+SoftShell is a single-page marketing website for a fictional software resale startup. It includes a hardcoded chatbot widget for basic customer interaction.
 
 ## Features
-- Hardcoded responses for common queries
-- OpenAI API integration for advanced responses
-- Toggle between light and dark modes
-- Smooth, modern UI with Tailwind CSS
+- **Hero Section:** Headline, subheading, and CTA button
+- **How It Works:** Three-step visual guide (Upload, Valuation, Payment)
+- **Why Choose Us:** 3–4 bullet points with icons and descriptions
+- **Testimonials:** 2 dummy customer reviews
+- **Contact Form:** Name, Email, Company, License Type, and Message
+- **Chat Widget:** Hardcoded responses for common queries
+- **Responsive Design:** Optimized for mobile and desktop
 
 ## Installation
 1. Clone the repository:
@@ -25,14 +28,10 @@ SoftShell is a simple, customizable AI chat widget that leverages hardcoded resp
    npm start
    ```
 
-## Usage
-- Click the chat icon to open the widget.
-- Type a message to interact with the AI.
-- Responses are either fetched from hardcoded responses or generated via OpenAI.
-
 ## Tech Stack
 - React
 - Tailwind CSS
+- Lucide-React
 
 ## License
 This project is open-sourced under the MIT License.
