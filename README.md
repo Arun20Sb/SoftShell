@@ -5,7 +5,7 @@ SoftShell is a single-page marketing website for a fictional software resale sta
 ## Features
 - **Hero Section:** Headline, subheading, and CTA button
 - **How It Works:** Three-step visual guide (Upload, Valuation, Payment)
-- **Why Choose Us:** 3–4 bullet points with icons and descriptions
+- **Why Choose Us:** 3-4 bullet points with icons and descriptions
 - **Testimonials:** 2 dummy customer reviews
 - **Contact Form:** Name, Email, Company, License Type, and Message
 - **Chat Widget:** Hardcoded responses for common queries
