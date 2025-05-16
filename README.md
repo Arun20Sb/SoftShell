@@ -1,16 +1,38 @@
-<<<<<<< HEAD
-# React + Vite
+# SoftShell - AI Chat Widget
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+SoftShell is a simple, customizable AI chat widget that leverages hardcoded responses and the OpenAI API to provide interactive, conversational assistance to users.
 
-Currently, two official plugins are available:
+## Features
+- Hardcoded responses for common queries
+- OpenAI API integration for advanced responses
+- Toggle between light and dark modes
+- Smooth, modern UI with Tailwind CSS
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Arun20Sb/SoftShell.git
+   cd SoftShell
+   ```
 
-## Expanding the ESLint configuration
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# SoftShell
->>>>>>> 2a719b53b726d22c521d8de8257e2bea3dee7907
+3. Start the application:
+   ```bash
+   npm start
+   ```
+
+## Usage
+- Click the chat icon to open the widget.
+- Type a message to interact with the AI.
+- Responses are either fetched from hardcoded responses or generated via OpenAI.
+
+## Tech Stack
+- React
+- Tailwind CSS
+
+## License
+This project is open-sourced under the MIT License.
