@@ -1,16 +1,37 @@
-<<<<<<< HEAD
-# React + Vite
+# SoftShell - Responsive Web Assignment
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+SoftShell is a single-page marketing website for a fictional software resale startup. It includes a hardcoded chatbot widget for basic customer interaction.
 
-Currently, two official plugins are available:
+## Features
+- **Hero Section:** Headline, subheading, and CTA button
+- **How It Works:** Three-step visual guide (Upload, Valuation, Payment)
+- **Why Choose Us:** 3–4 bullet points with icons and descriptions
+- **Testimonials:** 2 dummy customer reviews
+- **Contact Form:** Name, Email, Company, License Type, and Message
+- **Chat Widget:** Hardcoded responses for common queries
+- **Responsive Design:** Optimized for mobile and desktop
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Arun20Sb/SoftShell.git
+   cd SoftShell
+   ```
 
-## Expanding the ESLint configuration
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# SoftShell
->>>>>>> 2a719b53b726d22c521d8de8257e2bea3dee7907
+3. Start the application:
+   ```bash
+   npm start
+   ```
+
+## Tech Stack
+- React
+- Tailwind CSS
+- Lucide-React
+
+## License
+This project is open-sourced under the MIT License.
